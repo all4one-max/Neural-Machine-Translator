@@ -5,7 +5,7 @@ from tensorflow.keras.models import load_model
 
 app = Flask(__name__, template_folder="templates")
 
-# model = load_model("model_colab.h5")
+model = load_model("model_colab.h5")
 with open("french_tokenizer.pickle", "rb") as handle:
     french_tokenizer_rec = pickle.load(handle)
 with open("english_tokenizer.pickle", "rb") as handle:
