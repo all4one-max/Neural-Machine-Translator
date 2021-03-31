@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="../static/css/bootstrap-grid.min.css">
+        <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="../static/css/style.css">
+        <title>Language Translator</title>
+    </head>
+
+    <body>
+        <div class="not_footer">
+            <!-- Nav bar section - 1 -->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Translator</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </nav>
+            <div class="jumbotron jumbotron-fluid">
+                <div class="container">
+                    <h1 class="display-4">Neural Machine Translator</h1>
+                    <p class="lead">A Deep Learning Model to translate sentences in french to english.
+                    </p>
+                </div>
+            </div>
+
+            <div class="card mx-auto w-50">
+                <img class="card-img-top img-fluid" src="/static/french.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <form action="{{ url_for('predict')}}" method="post">
+                        <div class="input-group input-group-lg">
+                            <input type="text" class="form-control" placeholder="Enter the sentence in french"
+                                aria-label="Recipient's username" aria-describedby="basic-addon2" name="french_text">
+                            <div class="input-group-append">
+                                <button class="btn btn-primary" type="submit" name="translate">translate</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <br><br>
+        </div>
+        <!-- footer -->
+        <footer class="footer bg-inverse bg-dark">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-12 socialWrapper">
+                        <a href="https://www.facebook.com/saurav.jha.33"><i class="fa fa-facebook-square fa-3x"></i></a>
+                        <a href="https://github.com/all4one-max"><i class="fa fa-github-square fa-3x"></i></a>
+                        <a href="https://www.linkedin.com/in/saurav-jha-603173136/"><i
+                                class="fa fa-linkedin fa-3x"></i></a>
+                    </div>
+                </div>
+                <p>Made with ❤️ by Saurav Jha.</p>
+            </div>
+        </footer>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src=" https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+        <script src="../static/js/bootstrap.min.js"></script>
+    </body>
+
+</html>

@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.not_footer {
+    flex: 1 0 auto;
+}
+
+.fa-facebook-square {
+    padding-left: 45%;
+    color: #3b5998;
+}
+
+.fa-linkedin {
+    color: #2867b2;
+}
+
+.fa-github-square {
+    color: #fafafa;
+}
+
+.socialWrapper a {
+    padding-left: 0.25%;
+    padding-right: 0.25%;
+    margin: auto;
+    position: relative;
+}
+
+footer {
+    flex-shrink: 0;
+}
+
+.footer p {
+    text-align: center;
+    color: #fafafa;
+    margin: 0;
+}
