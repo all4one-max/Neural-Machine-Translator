@@ -32,7 +32,7 @@ This web app convert french sentences to english sentences.
 |    ├── english.jpg
 |    ├── french.jpg
 ├── template
-     |── home.html
+|    |── home.html
 │    ├── predict.html
 ├── app.py
 ├── english_tokenizer.pickle
