@@ -2,20 +2,22 @@
 
 This web app convert french sentences to english sentences.
 
-# Overview
-
--   The model has been built on top of keras Sequential api and uses LSTM for training.
-
--   One thing to note is that the words in the sentence has been vectorized, so similar words may have similar vectors, which is a better option than using bag of words or Tf-Idf, which do not take into account the semantics of sentences.
-
--   AS training a deep learning model on local system takes a lot of time, the model has been trained on google collab with GPU session.
-
 # Built with
 
 ![Python](https://img.shields.io/badge/Python-3.8-blueviolet)
 ![Library](https://img.shields.io/badge/tensorflow-Library-blue)
 ![Framework](https://img.shields.io/badge/Framework-Flask-red)
 ![Frontend](https://img.shields.io/badge/Frontend-HTML/CSS/JS-green)
+
+# Overview
+
+-   The model has been built on top of keras Sequential api and uses LSTM for training.
+
+-   One thing to note is that the words in the sentence has been vectorized, so similar words may have similar vectors, which is a better option than using bag of words or Tf-Idf, which do not take into account the semantics of sentences.
+
+-   A training a deep learning model on local system takes a lot of time, the model has been trained on google collab with GPU session.
+
+-   Finally, to make the web app Flask has been used in the Backend and HTML, CSS and Bootstrap on the frontend.
 
 # Note
 
@@ -25,3 +27,10 @@ If someone figures out a way to deploy Deep learning model on heroku for free, d
 # Demo
 
 ![GIF](./translator_gif.gif)
+
+## Future Scope
+
+-   Deploy the web app on heroku(for free Obviously)
+-   The Bleu score of the model is aroung 66.7% so try to optimize the model
+-   Optimize Flask app.py
+-   Front-End
