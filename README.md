@@ -5,9 +5,10 @@ This web app convert french sentences to english sentences.
 # Built with
 
 ![Python](https://img.shields.io/badge/Python-3.8-blueviolet)
-![Library](https://img.shields.io/badge/tensorflow-Library-blue)
+![Library](https://img.shields.io/badge/Library-keras-red)
+![Library](https://img.shields.io/badge/Library-tensorflow-blue)
 ![Framework](https://img.shields.io/badge/Framework-Flask-red)
-![Frontend](https://img.shields.io/badge/Frontend-HTML/CSS/JS-green)
+![Frontend](https://img.shields.io/badge/Frontend-HTML%2FCSS%2FJS-blueviolet)
 
 # Overview
 
