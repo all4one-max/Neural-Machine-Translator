@@ -23,17 +23,17 @@ This web app convert french sentences to english sentences.
 
 ```
 ├── static
-│   ├── css
-        ├── bootstrap-grid.min.css
-        ├── bootstrap.min.css
-        ├── style.css
-    ├── js
-        ├── bootstap.min.js
-    ├── english.jpg
-    ├── french.jpg
+│    ├── css
+|    |   ├── bootstrap-grid.min.css
+|    |   ├── bootstrap.min.css
+|    |   ├── style.css
+|    ├── js
+|    |   ├── bootstap.min.js
+|    ├── english.jpg
+|    ├── french.jpg
 ├── template
-    |── home.html
-│   ├── predict.html
+     |── home.html
+│    ├── predict.html
 ├── app.py
 ├── english_tokenizer.pickle
 ├── french_tokenizer.pickle
