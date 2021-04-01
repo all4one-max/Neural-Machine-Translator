@@ -7,7 +7,7 @@ This web app convert french sentences to english sentences.
 ![Python](https://img.shields.io/badge/Python-3.8-blueviolet)
 ![Library](https://img.shields.io/badge/Library-keras-red)
 ![Library](https://img.shields.io/badge/Library-tensorflow-blue)
-![Framework](https://img.shields.io/badge/Framework-Flask-red)
+![Framework](https://img.shields.io/badge/Framework-flask-success)
 ![Frontend](https://img.shields.io/badge/Frontend-HTML%2FCSS%2FJS-blueviolet)
 
 # Overview
@@ -16,7 +16,7 @@ This web app convert french sentences to english sentences.
 
 -   One thing to note is that the words in the sentence has been vectorized, so similar words may have similar vectors, which is a better option than using bag of words or Tf-Idf, which do not take into account the semantics of sentences.
 
--   A training a deep learning model on local system takes a lot of time, the model has been trained on google collab with GPU session.
+-   Training a deep learning model on local system takes a lot of time, thats why the model has been trained on google collab with GPU session.
 
 -   Finally, to make the web app Flask has been used in the Backend and HTML, CSS and Bootstrap on the frontend.
 
@@ -62,3 +62,7 @@ If someone figures out a way to deploy Deep learning model on heroku for free, d
 -   The Bleu score of the model is aroung 66.7% so try to optimize the model
 -   Optimize Flask app.py
 -   Front-End
+
+## Contact
+
+#### If you have any doubt or want to contribute feel free to email me or hit me up on [LinkedIn](https://www.linkedin.com/in/saurav-jha-603173136/)
