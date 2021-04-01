@@ -19,6 +19,33 @@ This web app convert french sentences to english sentences.
 
 -   Finally, to make the web app Flask has been used in the Backend and HTML, CSS and Bootstrap on the frontend.
 
+## Directory Tree
+
+```
+├── static
+│   ├── css
+        ├── bootstrap-grid.min.css
+        ├── bootstrap.min.css
+        ├── style.css
+    ├── js
+        ├── bootstap.min.js
+    ├── english.jpg
+    ├── french.jpg
+├── template
+    |── home.html
+│   ├── predict.html
+├── app.py
+├── english_tokenizer.pickle
+├── french_tokenizer.pickle
+├── model_colab.h5
+├── model.py
+├── Procfile
+├── translator_gif.gif
+├── README.md
+├── requirements.txt
+├── .gitattributes
+```
+
 # Note
 
 In the repo you can see Procfile, it is there because I have had made an attempt to deploy the app on heroku. The maximum allowed slug size on heroku is 500 Mb and tensorflow 2.3.0 is itself around 300 Mb and model_colab.h5 is around 130 Mb, therefore i was unable to deploy it on heroku.
